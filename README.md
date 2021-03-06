@@ -9,7 +9,7 @@
 ## Usage
 
 ```
-node python/main.py yourfile.py
+python3 python/main.py yourfile.py
 ```
 
 ## Example
