@@ -24,6 +24,6 @@ setup(name='iamfast',
       zip_safe=True,
       install_requires=[],
       entry_points={'console_scripts': [
-          'iamfast-python = iamfast-python.main:main'
+          'iamfast=iamfast.main:main'
       ]}
 )
