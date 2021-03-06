@@ -9,13 +9,19 @@
 ## Usage
 
 ```
-python3 python/main.py yourfile.py
+pip3 install iamfast
+```
+
+## Usage
+
+```
+iamfast-python yourfile.py
 ```
 
 ## Example
 
 ```
-% cat python/tests/test1.py
+> cat tests/test1.py
 import boto3
 
 # Create SQS client
@@ -34,7 +40,7 @@ print(response['QueueUrl'])
 ```
 
 ```
-% python3 python/main.py python/tests/test1.py
+> iamfast-python tests/test1.py
 {
     "Version": "2012-10-17",
     "Statement": [

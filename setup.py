@@ -12,7 +12,7 @@ if version < (3, 4):
     sys.exit(-1)
 
 setup(name='iamfast',
-      version='0.1.0',
+      version='0.1.2',
       description='',
       long_description=long_description,
       long_description_content_type='text/markdown',
@@ -24,6 +24,6 @@ setup(name='iamfast',
       zip_safe=True,
       install_requires=[],
       entry_points={'console_scripts': [
-          'iamfast=iamfast.main:main'
+          'iamfast-python=iamfast.main:main'
       ]}
 )
